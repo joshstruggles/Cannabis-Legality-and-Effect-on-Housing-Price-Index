@@ -190,6 +190,7 @@ States to watch: <br>
 
 
 <br> 
+
 # Conclusion
 
 In conclusion, the data suggest that there is in fact a relationship between states that have legalized recreational cannabis and elevated HPI. 
