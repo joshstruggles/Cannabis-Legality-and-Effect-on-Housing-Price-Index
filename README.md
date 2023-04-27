@@ -2,7 +2,8 @@
 ## Cannabis Legality and Effect on Housing Price Index
 Student: Joshua Ruggles <br>
 Instructor: Morgan Jones <br>
-Data Science Flex <br><br> 
+Data Science Flex <br>
+Date: 4/23/23<br><br> 
 
 ### Business Problem 
 We have been contacted by a real estate agency to see if there is any relation between a bump in housing prices where cannabis has been legalized and if so, when and how much?
