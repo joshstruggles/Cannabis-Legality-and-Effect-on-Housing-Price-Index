@@ -122,7 +122,7 @@ In conclusion, the data suggest that there is in fact a relationship between sta
 <br><br>
 It is our suggestion to purchase property in states that have legalized recreational cannabis in the same year that it was announced. 
 <br><br>
-Also for consideration, states that are considered ‘blue’ are also the most likely to also be considered a ‘green’ state.  
+State legislation is constantly changing, we suggest purchasing property prior to federal legalization. 
 
 
 
