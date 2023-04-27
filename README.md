@@ -3,7 +3,7 @@
 Student: Joshua Ruggles <br>
 Instructor: Morgan Jones <br>
 Data Science Flex <br>
-Date: 4/23/23<br><br> 
+Date: 4/26/23<br><br> 
 
 ### Business Problem 
 We have been contacted by a real estate agency to see if there is any relation between a bump in housing prices where cannabis has been legalized and if so, when and how much?
@@ -15,9 +15,6 @@ We will take into account the year that cannabis was legalized in the state in q
 For this project we are looking at cannabis and its effect on the housing market in states that have legalized recreational use.
 <img src="photos/map.png"  /><br><br>
 <center>Image from nbcnews.com (November 2022)</center><br>
-<img src="photos/us_political_map.jpg"  /><br><br>
-<center>Odd how much these two images match up.<br>
-Governing Magazine (2020)</center><br>
 
 ## There is data on all 50 states 
 
@@ -75,71 +72,6 @@ For our purposes we will also need to know when each state legalized recreationa
 - Virginia: Q3 2021
 - Washington: Q4 2012
 <br>
-## Time Series analysis of the HPI of states that have legalized recreational cannabis use 
-<img src="photos/legal_states_list.png"  />
-<br> 
-Dickey-Fuller Test: Alaska's HPI
-<img src="photos/Alaska_staitonary_data.png" />
-<br> 
-### Function for differencing 
-Well that's great that we were able to walk through that process once. Let's make a function to lessen the amount of work we may have to do in the future for the remaining states.
-<img src ="photos/function_for_differencing.png" />
-<br> 
-### Training data and Testing Data
-We will split our training data into 80% of the data, testing the following 20% but let's add in a TimeSeriesSplit down the road here.
-<img src="photos/training_testing.png" />
-
-### ACF(Autocorrelation Function): Alaska
-<img src="photos/ACF.png" />
-
-### PACF(Partial Autocorrelation Function): Alaska
-<img src="photos/PACF.png" />
-<br>
-### ARMA 
-<img src = "photos/ARMA.png" />
-
-### Testing 
-<img src = "photos/Testing.png" />
-
-### ARMA model after cross validation 
-<img src = "photos/Testing_1.png" />
-
-### Train/Test Split on national_arma
-<img src = "photos/Train_test_national.png" />
-
-### Arma model on national dataset
-<img src = "photos/arma_national.png" />
-
-### Testing on national dataset
-<img src="photos/testing_national.png" />
-
-### Predict into the future on national data
-<img src ="photos/national_forecast.png" />
-
-### Cannabis Legislation not yet passed 
-<img src="photos/illegal_states.png" />
-
-## Hypothesis testing #1: 
-There is an observable effect on recreational cannabis legalization and raised HPI. We will try the first four states and separate them by region to measure if there is any effect.  
-<img src="photos/national_df_2013.png" />
-
-# Colorado: Q4 2012
-<img src="photos/colorado_pct.png" />
-
-# Washington: Q4 2012
-<img src ="photos/washington_pct.png" />
-
-## Maine & Massachusetts
-<img src="photos/national_df_2017.png" /> 
-<img src="photos/maine_pct.png" />
-<img src="photos/massachusetts_pct.png" />
-
-## Hypothesis testing #2: 
-Generally speaking, HPI percentage change in states that have legalized recreational cannabis use are higher than states that have not. We will look at the previous 10 recorded years (excluding COVID-19) and see which group of states has the higher average percentage.
-<img src="photos/legal_vs_illegal_pct.png" />
-
-## Hypothesis testing #3: 
-The initial roll-out of recreational cannabis legality seems to suggest that this happened first in states where the HPI percentage over the last 10 recorded years was higher than the national average. Can we then predict where recreational cannabis legality may move next and if so, is that based on HPI percentages?
 
 # Business Suggestion #1: 
 There is an implied change in our dataset regarding increased HPI percentage change and cannabis legalization. It is our suggestion to consider investing inside of that space (a state that has legalized recreational cannabis use) the year legislation is passed and to consider selling within 3 - 4 years of acquiring a property. 
@@ -179,16 +111,8 @@ With legalization of recreational cannabis use having been successful this past 
 
 ## Business Suggestion #3: 
 
-It would seem that political alignment of a state has something to do with legalization of recreational cannabis use; the following states have either historically or recently voted for a democratic presidential candidate and have bills actively or plans to draft bills for legalization of recreational cannabis use in the near future. Consider investing in these states, next. 
-
-States to watch: <br>
-
-- Minnesota: house is set to vote on a bill drafted on 4/20/23 https://www.cbsnews.com/minnesota/news/420-legalized-cannabis-vote-minnesota-house/<br><br>
-
-- Wisconsin: state GOP lawmakers set to work on cannabis legalization https://apnews.com/article/wisconsin-medical-marijuana-legalization-republicans-92a5764d72a54914ecee54b37d6e8d5b<br><br>
-
-- Georgia: 2020 was the first year since 1992 that Georgia has voted democrat, there is a growing movement for recreational cannabis legalization via https://norml.org/georgia-marijuana-legalization-effort/ 
-
+April 26th, 2023 Minnesota House has passed a bill to legalize recreational cannabis. Though medicinal cannabis has been legal in Minnesota since 2014, we maintain the same business suggestion as before, consider purchasing, now.  
+<img src="photos/Minnesota_prediction.png" />
 
 <br> 
 
