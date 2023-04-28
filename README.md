@@ -131,3 +131,7 @@ State legislation is constantly changing, we suggest purchasing property prior t
 
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 4aa6b844f12b3fd71211367520007d9d20394d9d
