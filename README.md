@@ -127,7 +127,8 @@ It is our suggestion to purchase property in states that have legalized recreati
 <br><br>
 State legislation is constantly changing, we suggest purchasing property prior to federal legalization. 
 
-
+# More Information
+See the full analysis in the [Jupyter Notebook](notebook.ipynb) or review this [presentation](phase_4_presentation.pdf).
 
 
 
