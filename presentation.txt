@@ -1,1 +1,0 @@
-See the full analysis in the [Jupyter Notebook](https://github.com/joshstruggles/Phase-4-Project/blob/master/notebook.ipynb) or review this [presentation](https://github.com/joshstruggles/Phase-4-Project/blob/master/photos/phase_4_presentation.pdf).
