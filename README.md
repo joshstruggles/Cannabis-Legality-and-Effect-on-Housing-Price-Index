@@ -1,5 +1,5 @@
-# Phase-4-Project
-## Cannabis Legality and Effect on Housing Price Index
+
+# Cannabis Legality and Effect on Housing Price Index
 Student: Joshua Ruggles <br>
 Instructor: Morgan Jones <br>
 Data Science Flex <br>
